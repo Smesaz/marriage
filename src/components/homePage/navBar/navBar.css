@@ -1,0 +1,80 @@
+.nav {
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    transition: 0.2s all ease-out;
+    height: 80px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: transparent; */
+    background-color: #f2b5d9c0;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
+    @media screen and (max-width: 960px) {
+        .nav{
+            transition: 0.8s all ease-out;}
+    }
+    .NavbarContainer {
+      display: flex;
+      justify-content: space-between;
+      height: 60px;
+      z-index: 1;
+      width: 100%;
+      padding: 0 24px;
+      max-width: 1100px;
+    }
+    @media screen and (max-width: 768px) {
+        .NavbarContainer{
+            justify-content: space-around;
+           margin-right: 2px;
+           padding: 0;
+        }
+   }
+   .NavLogo{
+    color: #333;
+    justify-self: flex-start;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+   }
+   .NavLogo:hover{
+       color: #dd6b6b;
+   }
+   .NavMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-self: flex-end;
+    text-align: center;
+    /* margin-right: 22px; */
+   }
+   .NavItem{
+    height: 60px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+   }
+   .NavLinks{
+    color: #333;
+    background-color: #dd6b6b;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    cursor: pointer;
+   }
+   .NavLinks:active{
+       color: #dd6b6b;
+   }
+   .NavLinks:hover{
+       color: #fff;
+       background-color: #333;
+   }
