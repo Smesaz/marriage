@@ -4,7 +4,7 @@ export function  postMail(input,assist){
     input.assist = assist;
     return async (dispatch)=>{
         try {
-            var json = await axios.post(`http://192.168.3.100:3001/postMail`, input);
+            var json = await axios.post(`https://lsweddingbackend.herokuapp.com/postMail`, input);
             return dispatch({
                 type: 'POST_MAIL',
                 payload: json.data,
