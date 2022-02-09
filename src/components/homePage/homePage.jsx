@@ -14,19 +14,19 @@ const HomePage = () => {
       <img className='image' src={wedding} alt='boda'/>
     </div>
     <div className='col2'>
-      <h1 className='Playfair'>Laura y Sebastián</h1>
-      <h1 className='Monsieur'> junto con sus familias</h1>
-      <h2 className='Questrial'>Tienen el gusto de invitarte a su boda el </h2>
-      <h1 className='Monsieur'>sábado, 4 de junio de 2022</h1>
+      <h1 className='Playfair'>Laura Zafra y Sebastián Piñeros</h1>
+      <h1 className='Monsieur'> junto con sus Familias</h1>
+      <h3 className='Playfair'>Tienen el gusto de invitarte a su boda el </h3>
+      <h1 className='Monsieur'>Sábado, 4 de junio de 2022</h1>
       <h1 className='Monsieur'>4 pm. Misa nupcial en la Parroquia Santa Bibiana </h1>
-      <h2 className='Questrial'>Usaquén</h2>
+      <h3 className='Playfair'>Usaquén</h3>
       <h1 className='Monsieur'>6 pm. Recepción en el Hotel Estelar La Fontana </h1>
-      <h2 className='Questrial'>Salón Cigarra</h2>
-      <h2 className='Questrial'>Código de vestimenta</h2>
-      <p className='Questrial'>Hombres – Traje formal y corbata</p>
-      <p className='Questrial'>Mujeres – Vestido largo o a media pierna </p>
-      <p className='Questrial'>Se reserva el color blanco y gris </p>
-      <p className='Questrial'>Lluvia de sobres</p>
+      <h1 className='Monsieur'>Salón Cigarra</h1>
+      <h3 className='Playfair'>Código de vestimenta</h3>
+      <p className='Playfair'>Hombres – Traje formal y corbata</p>
+      <p className='Playfair'>Mujeres – Vestido largo o a media pierna </p>
+      <p className='Playfair'>Se reserva el color blanco y gris </p>
+      <p className='Playfair'>Lluvia de sobres</p>
     </div>
   </div>
     <ContactUs />

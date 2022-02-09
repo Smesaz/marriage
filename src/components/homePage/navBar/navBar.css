@@ -63,13 +63,17 @@
     color: #333;
     background-color: #dd6b6b;
     border-radius: 10px;
+
     display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     align-items: center;
     text-decoration: none;
     height: 100%;
     cursor: pointer;
+    font-weight: bold;
    }
    .NavLinks:active{
        color: #dd6b6b;
