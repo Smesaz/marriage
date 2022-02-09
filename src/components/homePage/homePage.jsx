@@ -15,8 +15,8 @@ const HomePage = () => {
     </div>
     <div className='col2'>
       <h1 className='Playfair'>Laura Zafra y Sebastián Piñeros</h1>
-      <h1 className='Monsieur'> junto con sus Familias</h1>
-      <h3 className='Playfair'>Tienen el gusto de invitarte a su boda el </h3>
+      <h1 className='Playfair'> junto con sus Familias</h1>
+      <h3 className='Playfair'>tienen el gusto de invitarte a su boda el </h3>
       <h1 className='Monsieur'>Sábado, 4 de junio de 2022</h1>
       <h1 className='Monsieur'>4 pm. Misa nupcial en la Parroquia Santa Bibiana </h1>
       <h3 className='Playfair'>Usaquén</h3>
