@@ -6,7 +6,7 @@ import LandingHome from './landingHome/landingHome.jsx';
 import Poema from './Poema/Poema';
 import Invite from './invite/invite';
 import Places from './places/places';
-import Info from './info/info';
+// import Info from './info/info';
 
 const HomePage = () => {
 
@@ -17,7 +17,7 @@ const HomePage = () => {
     <Poema/>
     <Invite/>
     <Places/>
-    <Info/>
+    {/* <Info/> */}
   {/* <div className='containerHome'>
     <div className='col2'>
       <h1 className='Playfair'>Laura Zafra y Sebastián Pineda</h1>

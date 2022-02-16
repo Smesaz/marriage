@@ -3,6 +3,7 @@ import './places.css';
 
 const Places = () => {
   return (
+    <>  
     <div class="container">
         <div class="card">
             <div class="face face1">
@@ -45,6 +46,38 @@ const Places = () => {
             </div>
         </div>
     </div>
+        <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                <img alt='' src="https://img.icons8.com/external-filled-outline-02-chattapat-/150/000000/external-couple-spring-filled-outline-02-chattapat-.png"/>
+                    <h3>Código de Vestimenta</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content2">
+                    <h4>Hombres</h4>
+                    <p>Traje formal con corbata</p>
+                    <h4 margin-top='10px'>Mujeres</h4>
+                    <p>Vestido largo o media pierna</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                <img alt='' src="https://img.icons8.com/external-justicon-lineal-color-justicon/140/000000/external-gift-diwali-justicon-lineal-color-justicon.png"/>
+                    <h3>Regalo</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <h4>Lluvia de sobres</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </>
   )
 }
 
