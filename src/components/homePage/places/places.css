@@ -1,3 +1,8 @@
+.placesContent{
+    background-image: url('../../assets/background1.jpg');
+    background-size: contain;
+    background-position: center;
+}
 .container{
     position: relative;
     display: flex;

@@ -3,7 +3,7 @@ import './places.css';
 
 const Places = () => {
   return (
-    <>  
+    <div className='placesContent'>  
     <div class="container">
         <div class="card">
             <div class="face face1">
@@ -77,7 +77,7 @@ const Places = () => {
             </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

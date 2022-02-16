@@ -1,6 +1,6 @@
 import React from 'react'
 import './invite.css';
-import wedding from '../../assets/wedding4.svg';
+// import wedding from '../../assets/wedding4.svg';
 
 const Invite = () => {
   return (
@@ -19,7 +19,7 @@ const Invite = () => {
             <h3>Los invitan al matrimonio de sus hijos</h3>
             <h2>Laura y Sebastian</h2>
             <p>el día 4 de junio de 2022</p>
-            <img className='image' src={wedding} alt='boda'/>
+            {/* <img className='image' src={wedding} alt='boda'/> */}
         </div>
     </div>
   )

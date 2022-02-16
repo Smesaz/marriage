@@ -3,7 +3,7 @@ import './homePage.css';
 import NavBar from './navBar/navBar.jsx';
 import ContactUs from './contactUs/contactUs.jsx';
 import LandingHome from './landingHome/landingHome.jsx';
-import Poema from './Poema/Poema';
+// import Poema from './Poema/Poema';
 import Invite from './invite/invite';
 import Places from './places/places';
 // import Info from './info/info';
@@ -14,7 +14,7 @@ const HomePage = () => {
   <div>
     <NavBar/>
     <LandingHome/>
-    <Poema/>
+    {/* <Poema/> */}
     <Invite/>
     <Places/>
     {/* <Info/> */}
