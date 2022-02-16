@@ -1,10 +1,12 @@
 import React from 'react';
 import './homePage.css';
-import wedding from '../assets/wedding4.svg';
 import NavBar from './navBar/navBar.jsx';
 import ContactUs from './contactUs/contactUs.jsx';
 import LandingHome from './landingHome/landingHome.jsx';
 import Poema from './Poema/Poema';
+import Invite from './invite/invite';
+import Places from './places/places';
+import Info from './info/info';
 
 const HomePage = () => {
 
@@ -13,10 +15,10 @@ const HomePage = () => {
     <NavBar/>
     <LandingHome/>
     <Poema/>
-  <div className='containerHome'>
-    <div className='col1'>
-      <img className='image' src={wedding} alt='boda'/>
-    </div>
+    <Invite/>
+    <Places/>
+    <Info/>
+  {/* <div className='containerHome'>
     <div className='col2'>
       <h1 className='Playfair'>Laura Zafra y Sebastián Pineda</h1>
       <h3 className='Playfair'> junto con sus Familias</h3>
@@ -32,7 +34,7 @@ const HomePage = () => {
       <p className='Playfair'>Se reserva el color blanco y gris </p>
       <p className='Playfair'>Lluvia de sobres</p>
     </div>
-  </div>
+  </div> */}
     <ContactUs />
   </div>
   );

@@ -14,7 +14,8 @@
     font-size: 3rem;
     color: white;
     padding-right: 40px;
-    background-image: url(https://media.giphy.com/media/egAayYMzsiX4quE7ZD/giphy.gif);
+    /* background-image: url(https://media.giphy.com/media/egAayYMzsiX4quE7ZD/giphy.gif); */
+    background-image: url(https://media.giphy.com/media/WQrXP9rnQzcyc/giphy.gif);
     background-size: cover;
     color: transparent;
     -webkit-text-stroke: 2px white;
@@ -33,5 +34,20 @@
     .homeContent h1{
         padding-right: 0;
 
+    }
+}
+@media screen and (max-width:420px) {
+    .homeContent{
+        background-position-x: 900px;
+    }
+}
+@media screen and (max-width:360px) {
+    .homeContent{
+        background-position-x: 850px;
+    }
+}
+@media screen and (max-width:260px) {
+    .homeContent{
+        background-position-x: 820px;
     }
 }

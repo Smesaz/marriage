@@ -1,0 +1,58 @@
+.inviteContent{
+    background-image: url('../../assets/background4.jpg');
+    display: flex;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.parentsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parents{
+    text-align: center;
+    margin: 5px 150px 10px 150px;
+}
+.parents h3{
+    margin: 12px;
+}
+.inviteNote{
+    margin-top: 40px;
+    padding-bottom: 500px;
+}
+.inviteNote h3{
+    margin: 10px 0 70px 0; 
+}
+.inviteContent h2{
+    margin: 20px;
+}
+.image{
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+@media screen and (max-width:900px) {
+    .image{
+        width: 80%;
+    }
+    .parents{
+        margin: 5px 40px 10px 40px;
+    }
+    .inviteNote{
+        padding-bottom: 200px;
+    }
+}
+@media screen and (max-width:340px) {
+    .parents{
+        margin: 5px 20px 10px 20px;
+    }
+}
+@media screen and (max-width:260px) {
+    .parents{
+        margin: 5px 10px 10px 10px;
+    }
+}
