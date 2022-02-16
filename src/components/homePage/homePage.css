@@ -1,5 +1,6 @@
 .Playfair {
     font-family: 'Playfair Display', serif;
+    font-style: normal;
 }
 .Questrial {
     font-family: 'Questrial', sans-serif;
@@ -18,6 +19,11 @@
     z-index: 1;
     display: flex;
     flex-direction: row;
+    justify-content: auto;
+    align-items: auto;
+    background-image: url('../assets/background2.jpg');
+    background-size: cover;
+    background-position: top ; 
 }
 @media screen and (max-width:900px) {
     .containerHome{

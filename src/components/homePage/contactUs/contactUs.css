@@ -41,10 +41,10 @@
         margin-bottom: 3.5rem;
         position: relative; }
         .heading-sec__main--lt {
-          color: #fff; }
+          color: #1f2235; }
           .heading-sec__main--lt::after {
             content: '';
-            background: #fff !important; }
+            background: #1f2235 !important; }
         .heading-sec__main::after {
           content: '';
           position: absolute;
@@ -83,9 +83,10 @@
         text-transform: uppercase;
         letter-spacing: 1px; }
 .contact {
-  background: linear-gradient(to right, #dd6b6b, #dd6b6b);
+  /* background: linear-gradient(to right, #dd6b6b, #dd6b6b); */
+  background-image: url('../../assets/background3.jpg');
   background-size: cover;
-  background-position: center; 
+  background-position: top; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,10 +101,10 @@
     width: 70%;
     border-radius: 5px;
     margin: 15px auto 0 auto; }
-    @media only screen and (max-width: 550px) {
+    @media only screen and (max-width: 750px) {
       .contact__form-container {
-        /* padding: 10; */
-        max-width: 10rem;
+        padding: 1rem;
+        max-width: 30rem;
         width: 90%; } }
   .contact__form-field {
     margin-bottom: 8px; }

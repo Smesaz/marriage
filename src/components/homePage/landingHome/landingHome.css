@@ -1,0 +1,37 @@
+.homeContent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('../../assets/LyS.jpeg');
+    margin-top: 80px;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: top;
+    padding-top: 80px;
+    background-attachment: fixed;
+}
+.homeContent h1{
+    font-size: 3rem;
+    color: white;
+    padding-right: 40px;
+    background-image: url(https://media.giphy.com/media/egAayYMzsiX4quE7ZD/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+@media screen and (max-width:900px) {
+    .homeContent{
+        background-position: bottom;
+        background-position-x: 950px;
+        background-position-y: center;
+        background-attachment: local;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .homeContent h1{
+        padding-right: 0;
+
+    }
+}

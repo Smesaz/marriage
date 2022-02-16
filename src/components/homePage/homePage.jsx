@@ -3,18 +3,20 @@ import './homePage.css';
 import wedding from '../assets/wedding4.svg';
 import NavBar from './navBar/navBar.jsx';
 import ContactUs from './contactUs/contactUs.jsx';
+import LandingHome from './landingHome/landingHome.jsx';
 
 const HomePage = () => {
 
   return (
   <div>
     <NavBar/>
+    <LandingHome/>
   <div className='containerHome'>
     <div className='col1'>
       <img className='image' src={wedding} alt='boda'/>
     </div>
     <div className='col2'>
-      <h1 className='Playfair'>Laura Zafra y Sebastián Piñeros</h1>
+      <h1 className='Playfair'>Laura Zafra y Sebastián Pineda</h1>
       <h3 className='Playfair'> junto con sus Familias</h3>
       <h3 className='Playfair'>tienen el gusto de invitarte a su boda el </h3>
       <h1 className='Monsieur'>Sábado, 4 de junio de 2022</h1>

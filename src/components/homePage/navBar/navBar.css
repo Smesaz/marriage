@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     /* background: transparent; */
-    background-color: #f2b5d9c0;
+    background-color: hsla(155, 17%, 45%, 0.753);
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
     @media screen and (max-width: 960px) {
         .nav{
@@ -43,7 +43,7 @@
     text-decoration: none;
    }
    .NavLogo:hover{
-       color: #dd6b6b;
+       color: #fff;
    }
    .NavMenu{
     display: flex;
@@ -61,7 +61,7 @@
    }
    .NavLinks{
     color: #333;
-    background-color: #dd6b6b;
+    background-color: #fff;
     border-radius: 10px;
 
     display: flex;
@@ -77,8 +77,10 @@
    }
    .NavLinks:active{
        color: #dd6b6b;
+       transition: 0.3s all
    }
    .NavLinks:hover{
        color: #fff;
        background-color: #333;
+       transition: 0.5s all;
    }
