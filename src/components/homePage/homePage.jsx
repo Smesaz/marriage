@@ -4,6 +4,7 @@ import wedding from '../assets/wedding4.svg';
 import NavBar from './navBar/navBar.jsx';
 import ContactUs from './contactUs/contactUs.jsx';
 import LandingHome from './landingHome/landingHome.jsx';
+import Poema from './Poema/Poema';
 
 const HomePage = () => {
 
@@ -11,6 +12,7 @@ const HomePage = () => {
   <div>
     <NavBar/>
     <LandingHome/>
+    <Poema/>
   <div className='containerHome'>
     <div className='col1'>
       <img className='image' src={wedding} alt='boda'/>

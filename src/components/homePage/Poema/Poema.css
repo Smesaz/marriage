@@ -1,0 +1,36 @@
+.poema{
+    display: flex;
+    background-image: url('../../assets/background2.jpg');
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.poemaContent{
+    margin-top: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.poemaContent h3{
+    font-size: 20px;
+    font-style: italic;
+}
+.p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.p1 p{
+    padding: 5px;
+}
+
+@media screen and (max-width:900px) {
+    .poemaContent{
+        margin-top: 300px;
+    }
+}
