@@ -1,5 +1,5 @@
 .inviteContent{
-    background-image: url('../../assets/background2.jpg');
+    background-image: url('../../assets/background2-1.png');
     display: flex;
     background-size: cover;
     background-position: top;
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 500px;
+    padding-top: 300px;
 }
 .parents{
     text-align: center;
@@ -44,7 +44,7 @@
         margin: 5px 40px 10px 40px;
     }
     .parentsContent{
-        padding-top: 200px;
+        padding-top: 170px;
     }
 }
 @media screen and (max-width:340px) {

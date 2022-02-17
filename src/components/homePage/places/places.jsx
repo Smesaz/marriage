@@ -50,7 +50,8 @@ const Places = () => {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                <img alt='' src="https://img.icons8.com/external-filled-outline-02-chattapat-/150/000000/external-couple-spring-filled-outline-02-chattapat-.png"/>
+                {/* <img alt='' src="https://img.icons8.com/external-filled-outline-02-chattapat-/150/000000/external-couple-spring-filled-outline-02-chattapat-.png"/> */}
+                <img alt='' src="https://img.icons8.com/wired/140/000000/unisex.png"/>
                     <h3>Código de Vestimenta</h3>
                 </div>
             </div>
@@ -66,7 +67,8 @@ const Places = () => {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                <img alt='' src="https://img.icons8.com/external-justicon-lineal-color-justicon/140/000000/external-gift-diwali-justicon-lineal-color-justicon.png"/>
+                {/* <img alt='' src="https://img.icons8.com/external-justicon-lineal-color-justicon/140/000000/external-gift-diwali-justicon-lineal-color-justicon.png"/> */}
+                <img alt='' src="https://img.icons8.com/wired/140/000000/wedding-gift.png"/>
                     <h3>Regalo</h3>
                 </div>
             </div>

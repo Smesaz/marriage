@@ -84,12 +84,17 @@
         letter-spacing: 1px; }
 .contact {
   /* background: linear-gradient(to right, #dd6b6b, #dd6b6b); */
-  background-image: url('../../assets/background3.jpg');
+  background-image: url('../../assets/background5.png');
   background-size: cover;
   background-position: top; 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .contact{
+    background-image: url('../../assets/background3-1.png');
+  }
 }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

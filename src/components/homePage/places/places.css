@@ -1,6 +1,6 @@
 .placesContent{
-    background-image: url('../../assets/background1.jpg');
-    background-size: contain;
+    background-image: url('../../assets/background5.png');
+    background-size: cover;
     background-position: center;
 }
 .container{
