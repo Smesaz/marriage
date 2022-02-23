@@ -21,6 +21,7 @@
 }
 .parents h3{
     margin: 12px;
+    font-weight: 400;
     font-variant: small-caps;
 }
 .inviteNote{
@@ -30,10 +31,13 @@
 .inviteNote h3{
     margin: 10px 0 70px 0; 
     font-style: italic;
+    font-weight: 400;
 }
 .inviteContent h2{
     margin: 20px;
+    /* text-transform: uppercase; */
     font-variant: small-caps;
+    font-size: xx-large;
 }
 .image{
     width: 40%;
@@ -62,7 +66,7 @@
         padding-top: 30px;
     }
     .topic{
-        min-height: 140px;
+        min-height: 340px;
     }
 }
 @media screen and (max-width:340px) {

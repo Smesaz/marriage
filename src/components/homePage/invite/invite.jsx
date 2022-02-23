@@ -5,7 +5,6 @@ import './invite.css';
 const Invite = () => {
   return (
     <>
-    <div className='topic'></div>
     <div className='inviteContent'>
         <div className='parentsContent'>
             <div className='parents'>
@@ -19,11 +18,12 @@ const Invite = () => {
         </div>
         <div className='inviteNote'>
             <h3>Los invitan al matrimonio de sus hijos</h3>
-            <h2>Laura y Sebastian</h2>
+            <h2>Laura y Sebastián</h2>
             <p>el día 4 de junio de 2022</p>
             {/* <img className='image' src={wedding} alt='boda'/> */}
         </div>
     </div>
+    <div className='topic'></div>
     </>
   )
 }
