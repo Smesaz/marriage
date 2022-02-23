@@ -24,8 +24,8 @@
     background-size: cover;
     color: transparent;
     -webkit-text-stroke: 2px white;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
+  /* -moz-background-clip: text; */
+  /* -webkit-background-clip: text; */
 }
 @media screen and (max-width:900px) {
     .homeContent{

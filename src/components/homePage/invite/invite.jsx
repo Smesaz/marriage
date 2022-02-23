@@ -8,12 +8,12 @@ const Invite = () => {
     <div className='inviteContent'>
         <div className='parentsContent'>
             <div className='parents'>
-                <h3>Yolanda Herrera</h3>
-                <h3>Mauricio Pineda</h3>
-            </div>
-            <div className='parents'>
                 <h3>Myriam Alba</h3>
                 <h3>Marco Zafra</h3>
+            </div>
+            <div className='parents'>
+                <h3>Yolanda Herrera</h3>
+                <h3>Mauricio Pineda</h3>
             </div>
         </div>
         <div className='inviteNote'>
