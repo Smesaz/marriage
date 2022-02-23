@@ -4,6 +4,8 @@ import './invite.css';
 
 const Invite = () => {
   return (
+    <>
+    <div className='topic'></div>
     <div className='inviteContent'>
         <div className='parentsContent'>
             <div className='parents'>
@@ -22,6 +24,7 @@ const Invite = () => {
             {/* <img className='image' src={wedding} alt='boda'/> */}
         </div>
     </div>
+    </>
   )
 }
 

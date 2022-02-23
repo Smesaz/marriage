@@ -1,14 +1,19 @@
+
 .homeContent{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-image: url('../../assets/LyS.jpeg');
     margin-top: 80px;
     background-size: cover;
     min-height: 100vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
     background-position: top;
     padding-top: 80px;
     background-attachment: fixed;
+    z-index: 100;
 }
 .homeContent h1{
     font-size: 4.5rem;
@@ -30,15 +35,22 @@
         background-attachment: local;
         justify-content: center;
         align-items: flex-start;
+        margin-top: 15%;
     }
     .homeContent h1{
         padding-right: 0;
 
     }
 }
+@media screen and (max-width:600px) {
+    .homeContent{
+        margin-top: 25%;
+    }
+}
 @media screen and (max-width:420px) {
     .homeContent{
         background-position-x: 900px;
+        margin-top: 28%;
     }
     .homeContent h1{
         font-size: 3rem;
@@ -46,7 +58,7 @@
 }
 @media screen and (max-width:360px) {
     .homeContent{
-        background-position-x: 850px;
+        background-position-x: 760px;
     }
 }
 @media screen and (max-width:260px) {

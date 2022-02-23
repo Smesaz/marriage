@@ -4,7 +4,7 @@ import './landingHome.css';
 const LandingHome = () => {
   return (
     <div className='homeContent'>
-      <h1>¡Nos casamos!</h1>
+      {/* <h1>¡Nos casamos!</h1> */}
     </div>
   )
 }
