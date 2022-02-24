@@ -14,7 +14,7 @@ const Places = () => {
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p>Hora: 4:30 pm</p>
+                    <p>Hora: 4:00 pm</p>
                     <h4>Parroquia Santa Bibiana</h4>
                     <p>Cra 1A este N° 109 - 85</p>
                         <a href="https://www.google.com/maps/place/Parroquia+Santa+Bibiana+-+Arquidi%C3%B3cesis+de+Bogot%C3%A1/@4.6863772,-74.0332364,16z/data=!4m5!3m4!1s0x8e3f900a952d2ac9:0x1b2634294ed571ef!8m2!3d4.6862588!4d-74.0284921?hl=es">
