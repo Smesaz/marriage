@@ -35,7 +35,7 @@ const Places = () => {
                 <div class="content">
                 <p>6:00 pm</p>
                     <h4>Hotel Estelar La Fontana</h4>
-                    <p>Salón Cigarra</p>
+                    <p>Salón Estelar</p>
                     <p>Avenida 127, N° 15 A - 10</p>
                         <a href="https://www.google.com/maps/place/Hotel+Estelar+La+Fontana/@4.7040903,-74.0441436,18.5z/data=!4m16!1m7!3m6!1s0x8e3f9ab2ee119c93:0x8de22ee8aa402577!2sAv.+Rodrigo+Lara+Bonilla+%23%2315a-10,+Bogot%C3%A1!3b1!8m2!3d4.7045962!4d-74.0435845!3m7!1s0x8e3f9ab2e9565caf:0x10d0ddf59c02d2e1!5m2!4m1!1i2!8m2!3d4.704947!4d-74.0435987?hl=es">
                             Como Llegar 
