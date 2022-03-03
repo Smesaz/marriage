@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { useDispatch } from 'react-redux';
-import {HashLoader} from 'react-spinners';
+import {SyncLoader} from 'react-spinners';
 import './contactUs.css';
 import Swal from 'sweetalert2';
 import { postMail } from '../../../redux/actions/postMail.js';
@@ -106,10 +106,10 @@ const ContactUs = () => {
 
   return (
     <section id="contactUs" class="contact sec-pad dynamicBg">
-      {loading && (<HashLoader
+      {loading && (<SyncLoader
         css={override}
-        size={70}
-        color={"#dd6b6b"}
+        size={40}
+        color={"#95917c"}
         loading={loading} />
         )}
     <div class="main-container">
